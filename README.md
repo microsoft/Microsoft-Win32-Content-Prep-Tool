@@ -1,9 +1,9 @@
 # Microsoft Win32 Content Prep Tool
 Manage Windows Apps (.intunewin) with Intune
 
-[Version 1.4](https://github.com/Microsoft/Intune-Win32-App-Packaging-Tool/releases/tag/v1.4)
+[Version 1.4](https://github.com/Microsoft/Intune-Win32-Content-Prep-Tool/releases/tag/v1.4)
 
-[See release notes for more information.](https://github.com/Microsoft/Intune-Win32App-Wrapping-Tool/releases)
+[See release notes for more information.](https://github.com/Microsoft/Intune-Win32-Content-Prep-Tool/releases)
 
 Use the Microsoft Win32 Content Prep Tool to pre-process Windows Classic apps. The packaging tool converts application installation files into the .intunewin format. The packaging tool also detects the parameters required by Intune to determine the application installation state. After you use this tool on your apps, you will be able to upload and assign the apps in the Microsoft Intune console.
 
