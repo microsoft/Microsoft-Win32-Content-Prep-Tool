@@ -1,2 +1,5 @@
 1.4
 Microsoft Intune Win32 App Packaging Tool will check the Windows Classic setup files and generate a .intunewin file to be imported into Intune Azure Portal.
+
+1.5
+Fixed the error when processing .msp file as setup file.
