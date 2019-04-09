@@ -28,3 +28,5 @@ Command-line parameters available
   * Only the setup files for this app should be in this folder.
 * -s  <setup_file>     Setup file (e.g. setup.exe or setup.msi).
 * -o  <output_file>    Output folder for the generated .intunewin file.
+
+**Note: The generated .intunewin file contains all compressed and encrypted source setup files and the encryption information to decrypt it. Please keep it in the safe place as your source setup files.**
