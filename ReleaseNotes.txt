@@ -3,3 +3,6 @@ Microsoft Intune Win32 App Packaging Tool will check the Windows Classic setup f
 
 1.5
 Fixed the error when processing .msp file as setup file.
+
+1.6
+Add catalog support for Win10 S.

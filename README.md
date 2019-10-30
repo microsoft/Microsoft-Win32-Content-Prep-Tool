@@ -1,7 +1,7 @@
 # Microsoft Win32 Content Prep Tool
 Manage Windows Apps (.intunewin) with Intune
 
-[Version 1.5](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.5)
+[Version 1.6](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.6)
 
 [See release notes for more information.](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases)
 
@@ -17,6 +17,7 @@ Sample commands to use for the Microsoft Win32 Content Prep Tool:
 * IntuneWinAppUtil -c <setup_folder> -s <source_setup_file> -o <output_folder> <-q>
   * This will generate the .intunewin file from the specified source folder and setup file.
   * For MSI setup file, this tool will retrieve required information for Intune.
+  * If -a is specified, all catalog files in that folder will be bundled into the .intunewin file.
   * If -q is specified, it will be in quiet mode. If the output file already exists, it will be overwritten.
   * Also if the output folder does not exist, it will be created automatically.
 * IntuneWinAppUtil
@@ -28,5 +29,6 @@ Command-line parameters available
   * Only the setup files for this app should be in this folder.
 * -s  <setup_file>     Setup file (e.g. setup.exe or setup.msi).
 * -o  <output_file>    Output folder for the generated .intunewin file.
+* -a  <catalog_folder> Catalog folder for all catalog files. All files in this folder will be treated as catalog file for Win10 S mode.
 
 **Note: The generated .intunewin file contains all compressed and encrypted source setup files and the encryption information to decrypt it. Please keep it in the safe place as your source setup files.**
