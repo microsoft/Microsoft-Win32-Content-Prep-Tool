@@ -9,3 +9,7 @@ Add catalog support for Win10 S.
 
 1.7
 Add Unicode support for file and folder name.
+
+1.8
+- Fixed the ArgumentOutOfRangeException error when running the tool in Windows Terminal.
+- Added some prefix for the log messages for better readability.
