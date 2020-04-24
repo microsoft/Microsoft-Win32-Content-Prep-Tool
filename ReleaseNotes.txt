@@ -13,3 +13,6 @@ Add Unicode support for file and folder name.
 1.8
 - Fixed the ArgumentOutOfRangeException error when running the tool in Windows Terminal.
 - Added some prefix for the log messages for better readability.
+
+1.8.1
+- Adding the actual binaries for v1.8. Please do not use v1.8 and use v1.8.1.
