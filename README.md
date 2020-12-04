@@ -2,7 +2,7 @@
 
 Manage Windows Apps (.intunewin) with Intune
 
-[Version 1.8.1](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.8.1)
+[Version 1.8.2](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.8.2)
 
 [See release notes for more information.](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases)
 
@@ -15,6 +15,8 @@ Before you install and the use Microsoft Win32 Content Prep Tool you **must**:
 
 Sample commands to use for the Microsoft Win32 Content Prep Tool:
 
+- IntuneWinAppUtil -v
+  - This will show the tool version (Only available starting version 1.8.2).
 - IntuneWinAppUtil -h
   - This will show usage information for the tool.
 - IntuneWinAppUtil -c <setup_folder> -s <source_setup_file> -o <output_folder> <-q>
@@ -29,6 +31,7 @@ Sample commands to use for the Microsoft Win32 Content Prep Tool:
 Command-line parameters available
 
 - -h Help
+- -v Tool version (Only available starting version 1.8.2).
 - -c <setup_folder> Setup folder for all setup files. All files in this folder will be compressed into .intunewin file.
   - Only the setup files for this app should be in this folder.
 - -s <setup_file> Setup file (e.g. setup.exe or setup.msi).
