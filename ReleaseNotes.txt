@@ -1,14 +1,14 @@
 1.4
-Microsoft Intune Win32 App Packaging Tool will check the Windows Classic setup files and generate a .intunewin file to be imported into Intune Azure Portal.
+- Microsoft Intune Win32 App Packaging Tool will check the Windows Classic setup files and generate a .intunewin file to be imported into Intune Azure Portal.
 
 1.5
-Fixed the error when processing .msp file as setup file.
+- Fixed the error when processing .msp file as setup file.
 
 1.6
-Add catalog support for Win10 S.
+- Add catalog support for Win10 S.
 
 1.7
-Add Unicode support for file and folder name.
+- Add Unicode support for file and folder name.
 
 1.8
 - Fixed the ArgumentOutOfRangeException error when running the tool in Windows Terminal.
@@ -16,3 +16,7 @@ Add Unicode support for file and folder name.
 
 1.8.1
 - Adding the actual binaries for v1.8. Please do not use v1.8 and use v1.8.1.
+
+1.8.2
+- Add support for version parameter (-v)
+- Add support for redirection of output to another file
