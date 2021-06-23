@@ -20,3 +20,6 @@
 1.8.2
 - Add support for version parameter (-v)
 - Add support for redirection of output to another file
+
+1.8.3
+- Fixed the issue where the tool is not working with catalog folders.
