@@ -2,7 +2,7 @@
 
 Manage Windows Apps (.intunewin) with Intune
 
-[Version 1.8.2](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.8.2)
+[Version 1.8.3](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases/tag/v1.8.3)
 
 [See release notes for more information.](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/releases)
 
