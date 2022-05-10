@@ -23,3 +23,6 @@
 
 1.8.3
 - Fixed the issue where the tool is not working with catalog folders.
+
+1.8.4
+- Fixed an issue with version 1.8.3 where the Win32PrepTool will not work with files greater than 4gb.
