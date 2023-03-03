@@ -12,10 +12,10 @@ Use the Microsoft Win32 Content Prep Tool to pre-process Windows Classic apps. T
 
 .NET Framework 4.7.2 
 
-Before you install and the use Microsoft Win32 Content Prep Tool you **must**:
+Before you install and use the Microsoft Win32 Content Prep Tool, you **must**:
 
 - Review the [Microsoft License Terms for Microsoft Win32 Content Prep Tool](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool/blob/master/Microsoft%20License%20Terms%20For%20Win32%20Content%20Prep%20Tool.pdf). Print and retain a copy of the license terms for your records. By downloading and using Microsoft Win32 Content Prep Tool, you agree to such license terms. If you do not accept them, do not use the software.
-- Review the [Microsoft Intune Privacy Statement](https://docs.microsoft.com/legal/intune/microsoft-intune-privacy-statement) for information on the privacy policy of the Microsoft Win32 Content Prep Tool.
+- Review the [Privacy and personal data in Intune](https://learn.microsoft.com/mem/intune/protect/privacy-personal-data) for information on the privacy policy of the Microsoft Win32 Content Prep Tool.
  
 
 Sample commands to use for the Microsoft Win32 Content Prep Tool:
@@ -29,7 +29,7 @@ Sample commands to use for the Microsoft Win32 Content Prep Tool:
   - For MSI setup file, this tool will retrieve required information for Intune.
   - If -a is specified, all catalog files in that folder will be bundled into the .intunewin file.
   - If -q is specified, it will be in quiet mode. If the output file already exists, it will be overwritten.
-  - Also if the output folder does not exist, it will be created automatically.
+  - Also, if the output folder does not exist, it will be created automatically.
 - IntuneWinAppUtil
   - If no parameter is specified, this tool will guide you to input the required parameters step by step.
 
