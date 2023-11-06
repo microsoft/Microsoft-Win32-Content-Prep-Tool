@@ -26,3 +26,6 @@
 
 1.8.4
 - Fixed an issue with version 1.8.3 where the Win32PrepTool will not work with files greater than 4gb.
+
+1.8.5
+- Fixed an issue with Win32 content prep tool crashing.
