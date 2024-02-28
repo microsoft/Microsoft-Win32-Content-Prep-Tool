@@ -29,3 +29,6 @@
 
 1.8.5
 - Fixed an issue with Win32 content prep tool crashing.
+
+1.8.6
+- Fixing an issue where the Win32 content prep tool is crashing.
