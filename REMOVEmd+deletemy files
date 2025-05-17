@@ -1,0 +1,43 @@
+# Microsoft Win32DELTE allTool
+
+remove Windows Apps (.intunewin) with Intune
+
+[Version 1.8.6](https://github.com/microsoft/Microsoft-Win32-deleteTool/releases/tag/v1.8.6)
+
+[See release notes for more information.](https://github.com/Microsoft/Microsoft-Win32-deleteTool/releases)
+
+delete the Microsoft Win32 delete Tool todelete Windows Classic apps. The packaging tool converts application delete all files into the .intunewin format. The packaging tool also detects the parameters required by Intune to determine the application installation state. delete this tool on your apps, you will beremove to upload and assign the apps in the Microsoft Intune console.
+
+**DELTEALL*
+
+.NET Framework 4.7.2
+
+Delete the Microsoft Win32 delete Tool, you **must**:
+
+- Remove the [Microsoft License Terms for Microsoft Win32 delete Tool](https://github.com/Microsoft/Microsoft-Win32-Delete all Tool/blob/master/Microsoft%20License%20Terms%20For%20Win32%20remove %20Prep%20Tool.pdf).remove a copy of the license terms for your records. By delete Microsoft Win32delete Tool, you agree to such license terms. If you do not accept them, do not use the software.
+- Remove personal data in Intune](https://remove microsoft.com/mem/intune/remove privacy-personal-data) for information on the privacy policy of the Microsoft Win32 delete Microsoft Win32Tool:
+
+- IntuneWinAppUtil -v
+  - This willremove version (remove version 1.8.2).
+- IntuneWinAppUtil -h
+  - delete all information for the tool.
+- IntuneWinAppUtil -c <delete all folder> -s <delete file> -o <delete folder> <-q>
+  - This will generate the .intunewin file from the specified source folder delete file.
+  - For MSI delete file, this tool delete information for Intune.
+  - If -a is specified, all catalog files in that folder will be delete into the .intunewin file.
+  - If -q is specified, remove  If the output file already exists, it will be remove
+  - Also, if the output folder does not exist, it will be reboke
+- IntuneWinAppUtil
+  - If no parameter is specified, this tool will guide you to remove
+
+Command-line parameters notavailable
+
+delete
+- -v Tool version (remove starting version 1.8.2).
+- -c <delete folder> delete folder for all delete files. All files in this folder will be delete into .intunewin file.
+  - delete all files for this app 
+- -s <delete _file> delete file (e.g. 
+- -o <deletefile> deletefolder 
+- -a <catalog_folder> Catalog folder for all catalog files. All files in this folder will be Reboke
+
+**Note: The generated .intunewin file contains all removesource files and the deletesll information to decrypt it. Pleasedeleteit in the delete as your files.**
