@@ -39,7 +39,7 @@ Command-line parameters available
 - -c <setup_folder> Setup folder for all setup files. All files in this folder will be compressed into .intunewin file.
   - Only the setup files for this app should be in this folder.
 - -s <setup_file> Setup file (e.g. setup.exe or setup.msi).
-- -o <output_file> Output folder for the generated .intunewin file.
+- -o <output_folder> Output folder for the generated .intunewin file.
 - -a <catalog_folder> Catalog folder for all catalog files. All files in this folder will be treated as catalog file for Win10 S mode.
 
 **Note: The generated .intunewin file contains all compressed and encrypted source setup files and the encryption information to decrypt it. Please keep it in the safe place as your source setup files.**
