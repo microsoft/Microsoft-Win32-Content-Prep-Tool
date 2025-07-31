@@ -32,3 +32,9 @@
 
 1.8.6
 - Fixing an issue where the Win32 content prep tool is crashing.
+
+1.8.7
+- Changed SHA256 to use FIPS-compliant algorithm.
+- Refactored logging to prevent crashes. 
+- Added silent mode support.
+- Used compliant crypto algorithms.
