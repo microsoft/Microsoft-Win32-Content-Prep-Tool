@@ -41,5 +41,7 @@ Command-line parameters available
 - -s <setup_file> Setup file (e.g. setup.exe or setup.msi).
 - -o <output_file> Output folder for the generated .intunewin file.
 - -a <catalog_folder> Catalog folder for all catalog files. All files in this folder will be treated as catalog file for Win10 S mode.
+- -q If specified, it will be in quiet mode. In quiet mode, there are no interactive prompts and existing content in the output folder (-o) will be overwritten if it exists. Also, if the output folder does not exist, it will be created automatically.
+- -qq If specified, all conditions of -q will be applied and there will be no console output. If both -q and -qq are specified, the conditions of -qq will be enforced.
 
 **Note: The generated .intunewin file contains all compressed and encrypted source setup files and the encryption information to decrypt it. Please keep it in the safe place as your source setup files.**
