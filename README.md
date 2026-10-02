@@ -8,6 +8,26 @@ Manage Windows Apps (.intunewin) with Intune
 
 Use the Microsoft Win32 Content Prep Tool to pre-process Windows Classic apps. The packaging tool converts application installation files into the .intunewin format. The packaging tool also detects the parameters required by Intune to determine the application installation state. After you use this tool on your apps, you will be able to upload and assign the apps in the Microsoft Intune console.
 
+## Packaging apps with Build-IntuneWin
+
+`Build-IntuneWin.ps1` packages every app in the [`input`](input) folder into a .intunewin file in the [`output`](output) folder.
+
+1. Put each app's setup files in its own folder under `input`, for example `input\7-Zip\7z2408-x64.msi`. Everything in an app's folder goes into its package, so keep only that app's files there.
+2. Double-click `Start-Packaging.bat`. When every app is packaged, it opens the `output` folder.
+3. Upload `output\<app folder name>.intunewin` to Intune.
+
+The script picks each app's setup file from the files directly in its folder: a PSAppDeployToolkit launcher (`Invoke-AppDeployToolkit.exe` or `Deploy-Application.exe`), then `install.ps1`, `install.cmd` or `install.bat`, then the only `.msi`, then the only `.exe`. If it can't pick one, `Start-Packaging.bat` asks you which file to use.
+
+You can also run `.\Build-IntuneWin.ps1` from PowerShell. It skips any app whose setup file it can't pick, unless you name the file with `-SetupFile` or add `-PromptForSetupFile`:
+
+```powershell
+.\Build-IntuneWin.ps1 -App 7-Zip -SetupFile 7z2408-x64.msi
+```
+
+`-App` on its own packages only the apps you name. Run `Get-Help .\Build-IntuneWin.ps1 -Detailed` for all options.
+
+Only the README in `input` and `output` is committed to git (see `.gitignore`), so installers and packages stay out of the repo.
+
 **Prerequisites**
 
 .NET Framework 4.7.2

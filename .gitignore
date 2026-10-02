@@ -1,0 +1,8 @@
+# App setup files go in input/ and packages are written to output/. Only each
+# folder's README is committed: installers and .intunewin files are often too
+# big for GitHub (100 MB per file), and a .intunewin contains the key to
+# decrypt it. Delete these lines if you want to commit them anyway.
+/input/*
+!/input/README.md
+/output/*
+!/output/README.md
